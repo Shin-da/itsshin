@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeffmathew Garcia — Developer. Artist. Builder.</title>
+  <meta name="description" content="Full-stack developer and systems builder based in Laguna, Philippines. I build things that work and feel right.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav id="nav">
+    <a href="#hero" class="nav-logo">Shin</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="container">
+      <p class="hero-eyebrow">Jeffmathew Garcia &nbsp;/&nbsp; Laguna, PH</p>
+      <h1 class="hero-name">Developer.<br>Artist.<br>Builder.</h1>
+      <p class="hero-tagline">I build systems that work and things that feel right.</p>
+      <p class="hero-sub">Available for freelance and full-time opportunities</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span class="scroll-line"></span>
+      Scroll
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <p class="section-label">About</p>
+
+      <div class="about-pillars">
+        <div class="pillar reveal">
+          <p class="pillar-title">One person.<br>End to end.</p>
+          <p class="pillar-body">From schema design to deployment, from UI to infrastructure. No handoff required — the same mind holds the whole system.</p>
+        </div>
+        <div class="pillar reveal">
+          <p class="pillar-title">Builds for<br>the long run.</p>
+          <p class="pillar-body">Every project is an asset. The decisions made early — architecture, data model, design system — compound or they rot. I build to compound.</p>
+        </div>
+        <div class="pillar reveal">
+          <p class="pillar-title">Craft<br>over flash.</p>
+          <p class="pillar-body">Clean code, deliberate design, measured choices. Impressiveness is the wrong goal — usefulness and coherence are the right ones.</p>
+        </div>
+      </div>
+
+      <div class="about-text reveal">
+        <p>I'm a full-stack developer and systems builder from Laguna, Philippines. I finished my BSIT with a 1.60 GWA and immediately started building things that mattered — not for a portfolio, but because the problem was real and the solution didn't exist yet.</p>
+        <p>I draw in graphite and charcoal. I think the same way I draw: start with structure, then refine, then find the one thing that needs to stand out and make it. That's the work, whether it's code or design.</p>
+        <p>What I'm building now: <strong>TindaFlow</strong> — a POS system for Filipino small businesses at a price point they can actually afford — and <strong>CosCard</strong>, a portfolio platform for the Philippine cosplay community. When I'm not building products, I'm doing systems work for clients who need the technical depth to match their operational complexity.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section id="work">
+    <div class="container">
+      <p class="section-label">Selected Work</p>
+
+      <ul class="work-list">
+
+        <li class="work-item reveal">
+          <span class="work-number">01</span>
+          <div class="work-content">
+            <h2 class="work-name">TindaFlow</h2>
+            <p class="work-desc">A web-based POS system for Filipino small businesses — sari-sari stores, retail stalls, food shops. Built because the tools that existed were either too expensive or too simple. Three pricing tiers. Designed to be the first real software many of its users ever pay for.</p>
+            <p class="work-result">Live product &mdash; active development, first paying customers targeted</p>
+            <div class="work-tags">
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">SaaS</span>
+              <span class="tag">Product</span>
+            </div>
+          </div>
+          <span class="work-year">2025 &ndash; now</span>
+        </li>
+
+        <li class="work-item reveal">
+          <span class="work-number">02</span>
+          <div class="work-content">
+            <h2 class="work-name">HFC Management System</h2>
+            <p class="work-desc">End-to-end ERP for Henrich Food Corporation. Replaced spreadsheet-heavy workflows across inventory, order management, role-based access, and analytics. The goal wasn't to digitize the process — it was to redesign it.</p>
+            <p class="work-result">Manual steps reduced from five to two &mdash; production, delivered</p>
+            <div class="work-tags">
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">WebSockets</span>
+              <span class="tag">ERP</span>
+            </div>
+          </div>
+          <span class="work-year">2024</span>
+        </li>
+
+        <li class="work-item reveal">
+          <span class="work-number">03</span>
+          <div class="work-content">
+            <h2 class="work-name">Operations &amp; Data Platform <span style="font-family:var(--font-body);font-size:0.7rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-faint);font-weight:300;margin-left:0.75rem;">confidential</span></h2>
+            <p class="work-desc">Data infrastructure and automation system for a US-based multi-business operator running five companies. Migrated ~179,000 records across 29 Airtable tables into DigitalOcean Managed PostgreSQL. Built a live command-center dashboard and replaced Zapier workflows with custom Python automation scripts.</p>
+            <p class="work-result">179K records migrated across 5 companies &mdash; ongoing engagement</p>
+            <div class="work-tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Python</span>
+              <span class="tag">DigitalOcean</span>
+            </div>
+          </div>
+          <span class="work-year">2026 &ndash; now</span>
+        </li>
+
+        <li class="work-item reveal">
+          <span class="work-number">04</span>
+          <div class="work-content">
+            <h2 class="work-name">CosCard</h2>
+            <p class="work-desc">A portfolio platform built for the Philippine cosplay community. Started as a gift — a handcrafted profile page for one cosplayer — and grew into a structured platform with tiered services, legal groundwork (Philippine Data Privacy Act, IP, photographer rights), and a phased rollout plan.</p>
+            <p class="work-result">Scaffolded and in active development</p>
+            <div class="work-tags">
+              <span class="tag">Next.js</span>
+              <span class="tag">Supabase</span>
+              <span class="tag">Prisma</span>
+              <span class="tag">Platform</span>
+            </div>
+          </div>
+          <span class="work-year">2026 &ndash; now</span>
+        </li>
+
+        <li class="work-item reveal">
+          <span class="work-number">05</span>
+          <div class="work-content">
+            <h2 class="work-name">CosCard</h2>
+            <p class="work-desc">A portfolio platform for the Philippine cosplay community. Started as a gift — a handcrafted profile page for one cosplayer — and grew into a structured platform with tiered services, a phased rollout, and legal groundwork covering the Philippine Data Privacy Act, IP, and photographer rights.</p>
+            <p class="work-result">Scaffolded &mdash; active development</p>
+            <div class="work-tags">
+              <span class="tag">Next.js</span>
+              <span class="tag">Supabase</span>
+              <span class="tag">Prisma</span>
+              <span class="tag">Platform</span>
+            </div>
+          </div>
+          <span class="work-year">2026 &ndash; now</span>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- Stack -->
+  <section id="stack">
+    <div class="container">
+      <p class="section-label">Stack</p>
+      <div class="stack-grid reveal">
+        <div class="stack-group">
+          <p class="stack-group-title">Languages</p>
+          <ul class="stack-items">
+            <li>PHP &mdash; production-level</li>
+            <li>JavaScript / ES6+</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>HTML &amp; CSS</li>
+          </ul>
+        </div>
+        <div class="stack-group">
+          <p class="stack-group-title">Frameworks &amp; Libraries</p>
+          <ul class="stack-items">
+            <li>React / Next.js</li>
+            <li>Node.js / Express</li>
+            <li>Vite</li>
+            <li>TailwindCSS</li>
+            <li>Prisma</li>
+          </ul>
+        </div>
+        <div class="stack-group">
+          <p class="stack-group-title">Data &amp; Infrastructure</p>
+          <ul class="stack-items">
+            <li>PostgreSQL / MySQL / SQLite</li>
+            <li>Supabase</li>
+            <li>DigitalOcean</li>
+            <li>Docker / WSL2</li>
+            <li>Airtable / REST APIs</li>
+          </ul>
+        </div>
+        <div class="stack-group">
+          <p class="stack-group-title">Tools &amp; Platforms</p>
+          <ul class="stack-items">
+            <li>Git / GitHub</li>
+            <li>Netlify</li>
+            <li>Hostinger</li>
+            <li>Figma (light use)</li>
+            <li>Linux / Bash</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <p class="section-label" style="justify-content: center;">Contact</p>
+      <h2 class="contact-headline reveal">Let's build<br><em>something right.</em></h2>
+      <p class="contact-sub reveal">Whether it's a product, a platform, or a system that needs to actually work — I'm open to the right projects.</p>
+      <div class="hero-actions" style="justify-content: center;" class="reveal">
+        <a href="mailto:jeffmathewg@gmail.com" class="btn btn-primary">jeffmathewg@gmail.com</a>
+      </div>
+      <div class="contact-links reveal">
+        <a href="https://github.com/Shin-da" target="_blank" rel="noopener" class="contact-link">
+          <span>GitHub</span> &nearr;
+        </a>
+        <a href="https://linkedin.com/in/jeffmathew-garcia-a1b636347" target="_blank" rel="noopener" class="contact-link">
+          <span>LinkedIn</span> &nearr;
+        </a>
+        <a href="https://itsshin.dev" target="_blank" rel="noopener" class="contact-link">
+          <span>Studio</span> &nearr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Jeffmathew Garcia &copy; 2026</span>
+    <span>Laguna, Philippines</span>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
